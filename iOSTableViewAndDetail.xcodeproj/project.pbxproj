@@ -15,6 +15,8 @@
 		1BD9CB062039E7F4003C2F9C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1BD9CB042039E7F4003C2F9C /* LaunchScreen.storyboard */; };
 		1BD9CB112039E7F4003C2F9C /* iOSTableViewAndDetailTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BD9CB102039E7F4003C2F9C /* iOSTableViewAndDetailTests.swift */; };
 		1BD9CB1C2039E7F4003C2F9C /* iOSTableViewAndDetailUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BD9CB1B2039E7F4003C2F9C /* iOSTableViewAndDetailUITests.swift */; };
+		1BD9CB2D2039E8CA003C2F9C /* Country.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BD9CB2C2039E8CA003C2F9C /* Country.swift */; };
+		1BD9CB2F2039E95D003C2F9C /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BD9CB2E2039E95D003C2F9C /* DetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		1BD9CB172039E7F4003C2F9C /* iOSTableViewAndDetailUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iOSTableViewAndDetailUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1BD9CB1B2039E7F4003C2F9C /* iOSTableViewAndDetailUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOSTableViewAndDetailUITests.swift; sourceTree = "<group>"; };
 		1BD9CB1D2039E7F4003C2F9C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1BD9CB2C2039E8CA003C2F9C /* Country.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Country.swift; sourceTree = "<group>"; };
+		1BD9CB2E2039E95D003C2F9C /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +110,8 @@
 				1BD9CB042039E7F4003C2F9C /* LaunchScreen.storyboard */,
 				1BD9CB072039E7F4003C2F9C /* Info.plist */,
 				1BD9CAFF2039E7F4003C2F9C /* iOSTableViewAndDetail.xcdatamodeld */,
+				1BD9CB2C2039E8CA003C2F9C /* Country.swift */,
+				1BD9CB2E2039E95D003C2F9C /* DetailViewController.swift */,
 			);
 			path = iOSTableViewAndDetail;
 			sourceTree = "<group>";
@@ -265,6 +271,8 @@
 				1BD9CB012039E7F4003C2F9C /* iOSTableViewAndDetail.xcdatamodeld in Sources */,
 				1BD9CAFB2039E7F4003C2F9C /* ViewController.swift in Sources */,
 				1BD9CAF92039E7F4003C2F9C /* AppDelegate.swift in Sources */,
+				1BD9CB2F2039E95D003C2F9C /* DetailViewController.swift in Sources */,
+				1BD9CB2D2039E8CA003C2F9C /* Country.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
